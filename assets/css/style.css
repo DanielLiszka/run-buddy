@@ -20,12 +20,10 @@ body {
 
 header {
   padding: 20px 35px;
-<<<<<<< HEAD
+
   z-index: 9999;
   background-color: #39a6b2;
-=======
-  background-color: var(--tertiary-color);
->>>>>>> feature/asthetics
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -431,9 +429,11 @@ section {
   content: none;
 }
 
+
 .checkbox-wrapper input:checked + label::after, 
 .radio-wrapper input:checked + label::after {
   content: "";
+
 }
 
 
